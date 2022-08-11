@@ -1,6 +1,6 @@
 <?php
-require_once 'PHPUnit/Autoload.php';
-class indexTest extends PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+class indexTest extends TestCase
 	{
 	public function testSiteIndex()
 		{

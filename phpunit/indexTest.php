@@ -1,6 +1,6 @@
 <?php
 
-class indexTest extends TestCase
+class indexTest extends PHPUnit_Framework_TestCase
 	{
 	public function testSiteIndex()
 		{
